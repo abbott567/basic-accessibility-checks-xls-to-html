@@ -4,8 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "author": "@abbott567",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "standard": "^16.0.4"
+  }
 }
