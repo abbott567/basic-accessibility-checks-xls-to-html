@@ -1,0 +1,11 @@
+{
+  "name": "accessibility-checks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "@abbott567",
+  "license": "ISC"
+}
