@@ -10,7 +10,20 @@
   "author": "@abbott567",
   "license": "ISC",
   "dependencies": {
-    "exceljs": "^4.3.0",
+    "clone-deep": "^4.0.1",
+    "read-excel-file": "^5.2.26",
+    "xlsx-column": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "standard": "^16.0.4"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ],
+    "ignore": [
+      "**/html5shiv.js"
+    ]
   }
 }
